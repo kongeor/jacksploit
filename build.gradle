@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:2.9.0'
+    runtime 'org.slf4j:slf4j-simple:1.7.21'
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    mainClassName = 'jacksploit.App'
+}
