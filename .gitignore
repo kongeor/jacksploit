@@ -12,3 +12,5 @@ out
 box/jdk-8*
 box/.vagrant
 box/*.log
+
+examples/*.class
